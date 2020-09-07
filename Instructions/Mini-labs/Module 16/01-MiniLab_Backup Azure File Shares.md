@@ -6,7 +6,7 @@
 
 **참고:** 스토리지 계정 및 파일 공유가 이미 있는 경우 이 단계를 건너뛸 수 있습니다.
 
-1. Azure Portal[(https://portal.azure.com)](https://portal.azure.com/)에 로그인하고 **스토리지 계정**을 검색합니다.
+1. Azure Portal [https://portal.azure.com](https://portal.azure.com/)에 로그인하고 **스토리지 계정**을 검색합니다.
 
 2. 새 스토리지 계정을 **추가합니다**.
 

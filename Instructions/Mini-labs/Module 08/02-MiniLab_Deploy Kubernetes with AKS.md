@@ -180,7 +180,7 @@ kubectl create namespace ratingsapp
 
 네임스페이스가 만들어졌는지 확인합니다.
 
-```출력
+```Output
 namespace/ratingsapp created
 ```
 
