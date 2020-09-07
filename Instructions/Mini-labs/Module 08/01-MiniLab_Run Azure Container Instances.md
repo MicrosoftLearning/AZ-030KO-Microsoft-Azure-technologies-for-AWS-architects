@@ -20,7 +20,7 @@ Azure Container Instances는 간단한 애플리케이션, 작업 자동화 및 
 
 ## 컨테이너 만들기
 
-1. Azure 구독을 사용하여 Azure Portal([https://portal.azure.com](https://portal.azure.com/))에 로그인합니다.
+1. Azure 구독을 사용하여 Azure Portal [https://portal.azure.com](https://portal.azure.com/) 에 로그인합니다.
 
 2. Cloud Shell 아이콘을 사용하여 Azure Portal 내에서 Azure Cloud Shell을 엽니다.
 

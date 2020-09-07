@@ -4,7 +4,7 @@ Azure AD(Azure Active Directory) 조직에서 새 사용자를 추가하거나 �
 
 Azure Active Directory 포털을 사용하여 새 사용자를 만들 수 있습니다. 다음 단계를 수행합니다.
 
-1.	조직의 사용자 관리자로 Azure Portal([https://portal.azure.com](https://portal.azure.com/))에 로그인합니다.
+1.	조직의 사용자 관리자로 Azure Portal [https://portal.azure.com](https://portal.azure.com/) 에 로그인합니다.
 
 2.	모든 페이지에서 *Azure Active Directory*를 검색하고 선택합니다.
 

@@ -4,7 +4,7 @@
 
 **첫 번째 가상 네트워크에서 VNet 피어링 구성**
 
-1. Azure Portal([https://portal.azure.com](https://portal.azure.com/))에 로그인하여 첫 번째 가상 네트워크를 선택합니다.
+1. Azure Portal [https://portal.azure.com](https://portal.azure.com/) 에 로그인하여 첫 번째 가상 네트워크를 선택합니다.
 
 2. **설정**에서 **피어링**을 선택합니다.
 

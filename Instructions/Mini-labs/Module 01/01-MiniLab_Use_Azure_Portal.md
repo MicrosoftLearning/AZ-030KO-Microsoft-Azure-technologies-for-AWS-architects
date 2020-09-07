@@ -30,7 +30,7 @@ Azure Portal에는 여러 기능과 서비스가 있는데 자주 사용하는 �
 
 ![Azure Cloud Shell을 나타내는 아이콘](../../Linked_Image_Files/5-cloud-shell-icon.png)
 
-Azure Cloud Shell을 사용하면 CLI(명령줄 인터페이스)를 통해 Azure 구독에서 명령을 실행할 수 있습니다. 도구 모음에서 아이콘을 선택하여 액세스할 수 있습니다. https://shell.azure.com로 이동하여 포털과는 별개로 브라우저에서 Cloud Shell을 시작할 수도 있습니다.
+Azure Cloud Shell을 사용하면 CLI(명령줄 인터페이스)를 통해 Azure 구독에서 명령을 실행할 수 있습니다. 도구 모음에서 아이콘을 선택하여 액세스할 수 있습니다. https://shell.azure.com 로 이동하여 포털과는 별개로 브라우저에서 Cloud Shell을 시작할 수도 있습니다.
 
 Azure Cloud Shell은 샌드박스 환경에서 사용할 수 있지만 셸의 샌드박스 버전의 기능이 줄어듭니다. 모든 Azure Cloud Shell 기능을 사용하려면 고유한 Azure 구독을 사용합니다.
 

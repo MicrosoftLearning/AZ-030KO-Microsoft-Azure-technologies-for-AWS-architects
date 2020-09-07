@@ -22,7 +22,7 @@
 
 ![Bash를 표시하는 환경 선택기](../../Linked_Image_Files/env-selector.png)
 
-## 구독 설정:
+## 구독 설정
 
 1. 액세스 가능한 구독 목록.
 
