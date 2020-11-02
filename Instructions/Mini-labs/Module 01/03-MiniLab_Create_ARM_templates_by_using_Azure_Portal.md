@@ -6,7 +6,7 @@
 
 Azure Portal을 사용하면 Azure Storage 계정 등의 리소스를 구성할 수 있습니다. 리소스를 배포하기 전에 Resource Manager 템플릿으로 구성을 내보낼 수 있습니다. 이 템플릿은 저장해 두었다가 나중에 재사용할 수 있습니다.
 
-1. Azure portal(https://portal.azure.com/)에 로그인합니다.
+1. Azure portal https://portal.azure.com/ 에 로그인합니다.
 
 1. **리소스 만들기** 선택
 

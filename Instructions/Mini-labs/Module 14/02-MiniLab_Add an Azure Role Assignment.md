@@ -7,7 +7,7 @@
 * ```Microsoft.Authorization/roleAssignments/write``` 및 ```Microsoft.Authorization/roleAssignments/delete``` 권한(예: U*ser Access Administrator* 또는 *Owner*).
 
 
-**액세스 제어(IAM)**는 Azure 리소스에 대한 액세스 권한을 부여하기 위해 역할을 할당할 때 사용하는 블레이드입니다. ID 및 액세스 관리라고도 하며 Azure Portal의 여러 위치에서 나타납니다. 다음 스크린샷은 구독에 대한 IAM(액세스 제어) 블레이드의 예를 보여 줍니다.
+**액세스 제어(IAM)** 는 Azure 리소스에 대한 액세스 권한을 부여하기 위해 역할을 할당할 때 사용하는 블레이드입니다. ID 및 액세스 관리라고도 하며 Azure Portal의 여러 위치에서 나타납니다. 다음 스크린샷은 구독에 대한 IAM(액세스 제어) 블레이드의 예를 보여 줍니다.
 
 ![구독용 IAM(액세스 제어) 블레이드](../../Linked_Image_Files/demo_RBAC_image1.png)
 
@@ -33,7 +33,7 @@ Azure RBAC에서 Azure 리소스에 액세스 권한을 부여하려면 역할 �
 
 2. 해당 범위의 특정 리소스를 클릭합니다.
 
-3. **액세스 제어(IAM)**를 클릭합니다.
+3. **액세스 제어(IAM)** 를 클릭합니다.
 
 4. **역할 할당** 탭을 클릭하여 이 범위의 역할 할당을 봅니다.
 
