@@ -1,6 +1,6 @@
 ﻿# 미니 랩: Azure Portal에서 Windows 가상 머신 만들기 및 암호화
 
-Azure VM(가상 머신)은 Azure Portal을 통해 만들 수 있습니다. Azure Portal은 VM 및 관련 리소스를 만드는 브라우저 기반 사용자 인터페이스입니다. 이 미니 랩에서는 Azure Portal을 사용하여 Ubuntu 18.04 LTS를 실행하는 Windows VM(가상 머신)을 배포하고 암호화 키 저장을 위한 키 자격 증명 모음을 만들며 VM을 암호화합니다.
+Azure Portal을 통해 Azure VM(Virtual Machines)을 만들 수 있습니다. Azure Portal은 VM 및 관련 리소스를 만드는 브라우저 기반 사용자 인터페이스입니다. 이 미니 랩에서는 Azure Portal을 사용하여 Ubuntu 18.04 LTS를 실행하는 Windows VM(가상 머신)을 배포하고 암호화 키 저장을 위한 키 자격 증명 모음을 만들며 VM을 암호화합니다.
 
 Azure 구독이 없는 경우 시작하기 전에 [free account](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)를 만드세요.
 

@@ -22,19 +22,19 @@ Azure Container Instances는 간단한 애플리케이션, 작업 자동화 및 
 
 1. Azure 구독을 사용하여 Azure Portal [https://portal.azure.com](https://portal.azure.com/) 에 로그인합니다.
 
-2. Cloud Shell 아이콘을 사용하여 Azure Portal 내에서 Azure Cloud Shell을 엽니다.
+2. Cloud Shell 아이콘을 사용하여 Azure Portal에서 Azure Cloud Shell을 엽니다.
 
 ![그림 7](../../Linked_Image_Files/demo_Azure_containers_image1.png)
 
-3. 모듈을 완료하면 이러한 리소스를 정리하는 것이 더 쉬워지도록 **learn-deploy-aci-rg**라는 이름으로 새 리소스 그룹을 만듭니다. 다른 리소스 그룹 이름을 선택한 경우에는 이 모듈의 나머지 연습에서 기억하세요. 또한 리소스 그룹을 만들려는 지역(예: **미국 동부**)을 선택해야 합니다.
+3. 모듈을 완료하면 이러한 리소스를 정리하는 것이 더 쉬워지도록 **learn-deploy-aci-rg**라는 이름으로 새 리소스 그룹을 만듭니다. 다른 리소스 그룹 이름을 선택하면 이 모듈의 나머지 연습에 대해 기억하세요. 또한 리소스 그룹을 만들 지역(예: **미국 동부**)을 선택해야 합니다.
 
 ```Azure CLI
 az group create --name learn-deploy-aci-rg --location eastus
 ```
 
-이름, Docker 이미지 및 Azure 리소스 그룹을 ```az container create``` 명령에 제공하여 컨테이너를 만듭니다. DNS 이름 레이블을 지정하여 선택적으로 컨테이너를 인터넷에 노출할 수 있습니다. 이 예제에서는 작은 웹앱을 호스팅하는 컨테이너를 배포합니다. 이미지를 배치할 위치를 선택할 수도 있습니다. 현재 **미국 동부** 지역을 사용하지만 더 가까운 위치로 변경할 수 있습니다.
+이름, Docker 이미지 및 Azure 리소스 그룹을 ```az container create``` 명령에 제공하여 컨테이너를 만듭니다. 필요에 따라 DNS 이름 레이블을 지정하여 컨테이너를 인터넷에 노출할 수 있습니다. 이 예제에서는 작은 웹앱을 호스팅하는 컨테이너를 배포합니다. 이미지를 배치할 위치를 선택할 수도 있으며, **미국 동부** 지역을 사용할 예정이지만 가까운 위치로 변경할 수 있습니다.
 
-4. 컨테이너를 인터넷에 노출하기 위해 DNS 이름을 제공합니다. DNS 이름은 고유해야 합니다. 학습 목적으로 Cloud Shell에서 이 명령을 실행하여 고유한 이름을 포함하는 Bash 변수를 만듭니다.
+4. DNS 이름을 제공하여 컨테이너를 인터넷에 노출합니다. DNS 이름은 고유해야 합니다. 학습 목적으로, Cloud Shell에서 이 명령을 실행하여 고유한 이름을 포함하는 Bash 변수를 만듭니다.
 
 ```Azure CLI
 DNS_NAME_LABEL=aci-demo-$RANDOM
@@ -64,7 +64,7 @@ az container show \
   --out table
 ```
 
-FQDN(컨테이너의 정규화된 도메인 이름) 및 해당 프로비전 상태가 표시됩니다. 아래에 예가 나와 있습니다.
+컨테이너의 FQDN(정규화된 도메인 이름) 및 해당 프로비전 상태를 확인합니다. 아래에 예가 나와 있습니다.
 
 ```Output
 FQDN ProvisioningState
@@ -74,8 +74,8 @@ FQDN ProvisioningState
 aci-demo.eastus.azurecontainer.io Succeeded
 ```
 
-컨테이너가 **만들기** 상태에 있는 경우 몇 분 동안 기다렸다가 **성공** 상태가 표시될 때까지 명령을 다시 실행합니다.
+컨테이너가 **만들기** 상태에 있는 경우 잠시 기다렸다가 **성공** 상태가 표시될 때까지 명령을 다시 실행합니다.
 
-7. 브라우저에서 컨테이너의 FQDN으로 이동하여 실행 중인 것을 확인합니다. 다음 화면을 보게 됩니다.
+7. 브라우저에서 컨테이너의 FQDN으로 이동하여 실행 중인지 확인합니다.
 
 ![브라우저에서 실행되는 샘플 Node.js 컨테이너 앱의 스크린샷.](../../Linked_Image_Files/demo_Azure_containers_image2.png)
